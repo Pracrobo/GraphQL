@@ -1,0 +1,18 @@
+{
+  "name": "5.practice",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "convert-csv-to-json": "^3.5.0",
+    "graphql": "^16.11.0"
+  }
+}
