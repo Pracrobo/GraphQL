@@ -33,19 +33,15 @@ function App() {
   };
 
   function NavMenus() {
-    return ["Roles", "Teams", "People"].map((_menu, key) => {
-      return (
-        <li
-          key={key}
-          className={menu === _menu ? "on" : ""}
-          onClick={() => {
-            setMenu(_menu);
-          }}
-        >
-          {_menu}
-        </li>
-      );
-    });
+    return ["Roles", "Teams", "People"].map((_menu, key) => (
+      <li
+        key={key}
+        className={menu === _menu ? "on" : ""}
+        onClick={() => setMenu(_menu)}
+      >
+        {_menu}
+      </li>
+    ));
   }
 
   return (

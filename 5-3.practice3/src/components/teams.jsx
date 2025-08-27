@@ -1,8 +1,7 @@
 import "./components.css";
 import { useState, useEffect } from "react";
-import { useQuery, useMutation } from "@apollo/client/react";
 import { gql } from "@apollo/client";
-
+import { useMutation, useQuery } from "@apollo/client/react";
 const GET_TEAMS = gql`
   query GetTeams {
     teams {

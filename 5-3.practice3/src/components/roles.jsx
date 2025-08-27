@@ -1,7 +1,8 @@
 import "./components.css";
 import { useState } from "react";
-import { useQuery } from "@apollo/client/react";
 import { gql } from "@apollo/client";
+import { useQuery } from "@apollo/client/react";
+
 const GET_ROLES = gql`
   query GetRoles {
     roles {
