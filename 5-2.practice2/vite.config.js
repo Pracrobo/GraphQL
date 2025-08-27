@@ -7,6 +7,12 @@ export default defineConfig({
   server: {
     port: 3000, // 예시로 포트 번호를 3000으로 변경
   },
+  resolve: {
+    alias: {
+      // use-sync-external-store shim 문제 우회
+      "use-sync-external-store/shim/index.js": "react",
+    },
+  },
   test: {
     globals: true,
     environment: "jsdom", // 전역으로 test, expect 사용 허용
