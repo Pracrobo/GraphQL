@@ -13,7 +13,7 @@ React + JavaScript + SWC + GraphQL + Apollo 구성 : 5-2.practice2에 새롭게 
 | Section3-11. 인자와 인풋타입 (arg, input type) | 3-4 | 3-4 추가 | 25/08/26 |
 | Section4-12. React와 Apollo Client | 4-1 | 5-2.practice2 | 25/08/27 |
 | Section4-13. Query와 Mutation을 사용하여 웹페이지 만들기 | 4-1 | 5-3.practice3 | 25/08/27 |
-| Section4-14. Fragment 사용하기 | 4-3 | 5-4.practice4 | 25/08/27 |
+| Section4-14. Fragment 사용하기 | 4-3 | 5-4.practice4 | 25/08/28 |
 
 ## Referenece
 
